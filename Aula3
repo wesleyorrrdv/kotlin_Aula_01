@@ -1,0 +1,8 @@
+fun main(args:Array<String>) {
+    var nome = "Wesley"
+    var idade = 18
+    var profissao = "Dv Android"
+    
+   
+    println ("Meu nome é $nome eu tenho $idade anos, eu sou $profissao.")
+}
