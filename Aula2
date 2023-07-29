@@ -1,0 +1,12 @@
+fun main(args:Array<String>) {
+   val nome = "Lucas"
+    val nomeC = "Lucas de Olivera"
+    val idade : Byte = 28
+    val salario = 1000000000000000
+    val percentual = 0.2
+    val verdadeiro = true
+    val falso = false
+    
+    
+    println("$nome,$nomeC,$idade,$salario,$percentual,$verdadeiro,$falso")
+    
