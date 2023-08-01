@@ -1,0 +1,9 @@
+fun main() {
+   var nomes = arrayOf("Maria","Vera","João")
+   
+   
+   println(nomes[0])
+   println(nomes[1])
+    println(nomes[2])
+    
+}
