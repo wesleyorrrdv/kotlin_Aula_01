@@ -1,0 +1,6 @@
+fun main() {
+    for(contador in 0..5){
+        println("Contador:$contador ")
+    }
+    
+}
