@@ -1,0 +1,12 @@
+fun main() {
+    var opcao = 0
+   when(opcao){
+       1 -> println("suco de Laranja")
+       2 -> println("suco de Uva")
+       3 -> println("suco de Maracuja")
+       else -> println("Nenhuma op")
+       
+       
+   }
+    
+}
