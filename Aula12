@@ -1,31 +1,10 @@
-fun main() {
-val carro = Carro()
-carro.Machas()
-class Carro{
-    var cor : String = ""
-    
-    fun abrirPOrta(){
-        println("Abrir porta do carro")
-    }
-    fun primeMacha(){
-        println("Passar primeira Macha")
-    }
-    fun segunMacha(){
-        println("Passar segunda Macha")
-        
-    } fun tercMacha(){
-        println("Passar terceira Macha")
-    
-    } fun quarMacha(){
-        println("Passar quarta Macha")
-    } fun quintMarcha(){
-        println("Passar quinta Macha")
-    } fun MachaRe(){
-        println("Ré")
-    }fun Machas(){
-        This.primeMacha
-        This.segunMacha
-        This.tercMacha
-    }
-    
+fun main(){
+     val carro = Carro()
+     carro.cor = "Red"
+    println(carro.cor)
 }
+class Carro(){
+    var cor: String = " "
+}
+
+
