@@ -1,10 +1,28 @@
 fun main(){
      val carro = Carro()
-     carro.cor = "Red"
+     carro.cor = "Carro Cinza"
+    carro.tudo()
+    carro.andarCarro()
     println(carro.cor)
 }
 class Carro(){
     var cor: String = " "
+    
+    fun andarCarro(){
+        println("Andando")
+    }
+    fun pararCarro(){
+        println("Parar")
+    }
+    fun reCarro(){
+        println("Ré")
+    }
+    fun tudo(){
+        this.andarCarro()
+        this.reCarro()
+        this.pararCarro()
+    }
+    
+    
 }
-
 
