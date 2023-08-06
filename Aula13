@@ -1,0 +1,6 @@
+fun main() {
+    
+val nomes = arrayOf("WS", "LS","JS")
+println(nomes[0])
+print(nomes[1])   
+}
